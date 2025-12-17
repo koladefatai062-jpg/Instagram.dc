@@ -1,0 +1,91 @@
+.registeration-form {
+    width: 300px;
+    padding: 30px;
+    margin: 10% auto;
+    background: #ddd;
+}
+
+.registeration-form h2,
+p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.registeration-form p:nth-child(2) {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.registeration-form .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.registeration-form .flex input[type=text] {
+    width: 110px;
+    border: none;
+    outline: none;
+    height: 38px;
+    padding-left: 15px;
+}
+
+.registeration-form input.input {
+    width: 100%;
+    height: 38px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+
+.registeration-form button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: lightseagreen;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, .2);
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(170deg, blueviolet, blue);
+}
+
+header .text {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+header .text .btns {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    gap: 20px;
+}
+
+header .text .btns a {
+    padding: 8px 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+header .text .btns a:hover {
+    background: #fff;
+    color: blueviolet;
+}
+        
